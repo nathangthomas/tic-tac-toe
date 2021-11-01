@@ -1,6 +1,6 @@
 # Welcome to Tic-Tac-Toe
 
-This is a quick React project to practice using React Hooks as well as to get more aquainted testing functional components using React Testing Library. 
+This is a quick React project simply for practicing using React Hooks as well as to get more aquainted testing functional components using React Testing Library. 
 
 ## **Set Up**
 
