@@ -9,7 +9,7 @@ This is a quick React project to practice using React Hooks as well as to get mo
 https://github.com/nathangthomas/tic-tac-toe
 ```
 ### Run Tic-Tac-Toe Locally
-- Run `yarn start` in your terminal to spin up your server.
+- Run `npm start` in your terminal to spin up your server.
 - Visit [http://localhost:3000/](http://localhost:3000/) in your browser to interact with the app.
 
 
