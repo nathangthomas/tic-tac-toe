@@ -11,15 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f82d02f-28f9-4786-9ff3-c27dbb6886b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Game.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Square.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/game.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/square.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Restart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/restart.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components/game.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/game.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +65,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="429" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1635783139775">
+    <state x="429" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1635806988580">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="429" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1635783139775" />
+    <state x="429" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1635806988580" />
   </component>
 </project>

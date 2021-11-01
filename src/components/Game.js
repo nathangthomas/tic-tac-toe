@@ -1,25 +1,44 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import Square from './Square';
+import Restart from './Restart';
+
 
 function Game() {
 
 const [ squares, setSquares ] = useState(Array(9).fill(null));
 const [ isXNext, setIsXNext ] = useState(true);
+const nextSymbol = isXNext ? "X" : "O";
 const winner = calculateWinner(squares);
 
-function renderSquare(i) {
-  return <Square
-    value={squares[i]}
-    onClick={() => {
-      const nextSquares = squares.slice();
-      nextSquares[i] = isXNext ? "X" : "O";
-      setSquares(nextSquares);
+  function renderSquare(i) {
+    return (
+      <Square
+        value={squares[i]}
+        onClick={() => {
+          if (squares[i] != null || winner != null) {
+            return;
+          }
+          const nextSquares = squares.slice();
+          nextSquares[i] = (isXNext ? "X" : "O");
+          setSquares(nextSquares);
 
-      setIsXNext(!isXNext);
-    }}
-  />;
-}
+          setIsXNext(!isXNext);
+        }}
+      />
+    );
+  }
+
+  function renderRestartButton() {
+    return (
+      <Restart
+        onClick={() => {
+        setSquares(Array(9).fill(null));
+        setIsXNext(true);
+        }}
+      />
+    );
+  }
 
   function getStatus() {
     if (winner) {
@@ -52,6 +71,7 @@ function renderSquare(i) {
           </div>
         </div>
         <div className="game-info">{getStatus()}</div>
+        <div className="restart-button">{renderRestartButton()}</div>
       </div>
     </div>
   );
