@@ -1,0 +1,24 @@
+@import 'src/styles/components/game';
+@import 'src/styles/components/square';
+
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 40px;
+    background: #26a69a;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    color: #424242;
+    margin-bottom: 10px;
+}
+
